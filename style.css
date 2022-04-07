@@ -2,3 +2,20 @@ body{
     background-color: #111;
     color:lightgray;
 }
+#wrapper{
+    width: 100%;
+    height: vh;
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+}
+#container{
+    width: 960px;
+    height: auto;
+}
+.gridBox{
+    background-color: #555;
+    border: 1px solid #888;
+    height: 50px;
+    width:50px;
+}
