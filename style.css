@@ -16,17 +16,19 @@ body{
     height: 100%;
     background-color: #888;
     display: grid;
-    grid-template-columns: repeat(16,6.25%);
+    grid-template-columns: repeat(16,1fr);
+    grid-gap:1px;
     justify-items:center;
 }
 .gridBox{
     background-color: #555;
-    border: 1px solid #888;
+    transition: .1s;
     height: 50px;
     width:50px;
-    transition: .1s;
-    
 }
 .gridBox:hover{
     background-color: red;
+}
+.hovered{
+    background-color:orangered;
 }
